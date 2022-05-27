@@ -3,8 +3,8 @@
     "isCreatingSolution": true,
     "environment": "spo",
     "version": "1.12.1",
-    "libraryName": "webpart",
-    "libraryId": "5b9fe70c-6c46-4701-8f0b-2ff1431c2a9f",
+    "libraryName": "readreceipt",
+    "libraryId": "ce10b47b-108a-4536-8b1e-0b59bc76a20a",
     "packageManager": "npm",
     "isDomainIsolated": false,
     "componentType": "webpart"

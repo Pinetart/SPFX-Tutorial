@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c302e05f-0c74-4a69-9ee2-ebd9c747a3c5",
+  "alias": "ReadReceiptWebpartWebPart",
+  "componentType": "WebPart",
+  "supportsThemeVariants": true,
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "Read Receipt" },
+      "description": { "default": "Record when a user has read a document" },
+      "officeFabricIconFontName": "DocumentApproval",
+      "properties": {
+        "description": "ReadReceiptWebpart"
+      }
+    }
+  ]
+}

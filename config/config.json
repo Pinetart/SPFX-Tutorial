@@ -2,17 +2,18 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "react-webpart-web-part": {
+    "read-receipt-webpart-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/reactWebpart/ReactWebpartWebPart.js",
-          "manifest": "./src/webparts/reactWebpart/ReactWebpartWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/readReceiptWebpart/ReadReceiptWebpartWebPart.js",
+          "manifest": "./src/webparts/readReceiptWebpart/ReadReceiptWebpartWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "ReactWebpartWebPartStrings": "lib/webparts/reactWebpart/loc/{locale}.js"
+    "ReadReceiptWebpartWebPartStrings": "lib/webparts/readReceiptWebpart/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
   }
 }
